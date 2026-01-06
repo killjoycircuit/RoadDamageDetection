@@ -107,6 +107,12 @@ yolov8_project/
 │ └── test/
 │ └── images/
 ```
+## Dataset
+
+The dataset used in this project was downloaded from Google Drive.
+
+🔗 **Dataset Link:**  
+https://drive.google.com/drive/folders/1JpBQ5haJCvPhD-0jUdir3GiGNbBnah93?usp=sharing
 
 The dataset path is defined in `rdd2022.yaml`:
 
@@ -140,4 +146,28 @@ model.train(
     batch=2
 )
 
+```
+### 4. Select best model
+```bash
+from ultralytics import YOLO
+
+# selecting best model we got
+model = YOLO("runs/detect/")
+```
+
+### 5. Test data
+```bash
+results = model.predict(
+    source="randomized_dataset/val/images",
+    imgsz=640,     # ↑ helps thin cracks
+    conf=0.10,     # ↓ allow weak detections
+    iou=0.7,       # ↑ prevents the  suppression of longer cracks
+    stream=True,
+    save=True,
+    project="runs/detect",
+    name="conf10_img640"
+)
+
+for r in results:
+    pass
 ```
