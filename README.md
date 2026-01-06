@@ -20,7 +20,7 @@ The final trained model is used to generate predictions on an unseen test datase
 - **Task**: Object Detection
 - **Framework**: PyTorch + Ultralytics YOLO
 
-YOLOv8 is a single-stage detector that predicts bounding boxes and class probabilities in one forward pass, making it fast and suitable for real-time applications.
+YOLOv8 is a single stage detector that predicts bounding boxes and class probabilities in one forward pass, making it fast and suitable for real time applications.
 
 ---
 
