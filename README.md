@@ -107,6 +107,8 @@ yolov8_project/
 │ └── test/
 │ └── images/
 ```
+<img width="368" height="623" alt="image" src="https://github.com/user-attachments/assets/1b4ae563-27be-4c7d-9f4e-93bb2bda65c8" />
+
 ## Dataset
 
 The dataset used in this project was downloaded from Google Drive.
