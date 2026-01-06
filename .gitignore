@@ -1,0 +1,56 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# =========================
+# Virtual Environment
+# =========================
+yolov8env/
+venv/
+.env/
+
+# =========================
+# Datasets (DO NOT COMMIT)
+# =========================
+randomized_dataset/
+dataset/
+archive.zip
+*.zip
+
+# =========================
+# YOLO / Ultralytics outputs
+# =========================
+runs/
+wandb/
+*.cache
+
+# =========================
+# Model weights
+# =========================
+*.pt
+*.onnx
+*.engine
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Submission artifacts
+# =========================
+submission.zip
+predictions/
