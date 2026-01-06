@@ -3,7 +3,7 @@
 This project focuses on detecting and classifying different types of road surface damages from images using the YOLOv8 object detection model. The model predicts both the **location (bounding boxes)** and **type of damage** present in road images.
 
 ---
-***All prediction files are stored in a `predictions/` folder and compressed into `submission.zip` for final submission.***
+***All prediction files are stored in a `predictions/` folder and compressed into `submission.zip`***
 
 ## Project Overview
 
