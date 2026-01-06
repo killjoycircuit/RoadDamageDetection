@@ -1,26 +1,6 @@
-# Python
-__pycache__/
-*.pyc
-*.log
-
-# Virtual environment
-yolov8env/
-venv/
-
-# Dataset & archives
-randomized_dataset/
-archive.zip
-
-# YOLO outputs
-runs/
-predictions/
-
-# Model weights
-*.pt
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS
-.DS_Store
-Thumbs.db
+ultralytics
+torch
+opencv-python
+numpy
+matplotlib
+streamlit
