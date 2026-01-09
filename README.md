@@ -144,7 +144,7 @@ model = YOLO("yolov8m.pt")
 model.train(
     data="rdd2022.yaml",
     epochs=50,
-    imgsz=640,
+    imgsz=640,  
     batch=2
 )
 
@@ -166,7 +166,7 @@ results = model.predict(
     iou=0.7,       # ↑ prevents the  suppression of longer cracks
     stream=True,
     save=True,
-    project="runs/detect",
+    project="runs/detect",  #stores result images here
     name="conf10_img640"
 )
 
