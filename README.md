@@ -144,7 +144,7 @@ model = YOLO("yolov8m.pt")
 model.train(
     data="rdd2022.yaml",
     epochs=50,
-    imgsz=640,  
+    imgsz=640,  #resolution
     batch=2
 )
 
